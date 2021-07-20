@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginRight="50sp"
+        >
+        <Button
+
+            android:layout_width="55sp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btBack"
+            android:text="←"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:background="@drawable/btn"
+            />
+
+        <TextView
+            android:textColor="#000000"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="모험 게임"
+            android:textSize="20sp"
+            android:gravity="center"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:layout_weight="3"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/imgExample3"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="얼룩말을 그려보아요"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            />
+        <!--그림판버튼-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:id="@+id/draw_red_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#FF0000"
+                android:text="빨강"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/draw_blue_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#0000FF"
+                android:text="파랑"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/draw_yellow_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFF00"
+                android:layout_weight="1"
+                android:text="노랑"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/draw_black_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#000000"
+                android:text="검정"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/clear_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="지우기"
+                android:textSize="15sp" />
+
+        </LinearLayout><!--그림판버튼-->
+
+        <!--그림판 ver2-->
+        <LinearLayout
+            android:background="@drawable/frame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp">
+            <LinearLayout
+                android:id="@+id/draw_frame3"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:background="#00000000"
+                android:orientation="vertical">
+            </LinearLayout>
+        </LinearLayout>
+        <!--그림판 ver2-->
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_weight="0.5"
+        >
+        <Button
+            android:id="@+id/btLoad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="이미지 불러오기"
+            android:background="@drawable/btn"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/btStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="시작하기"
+            android:background="@drawable/btn"
+            android:textColor="#000000"
+            android:textSize="25sp"
+
+            />
+    </LinearLayout>
+
+</LinearLayout>
