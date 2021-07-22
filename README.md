@@ -25,6 +25,8 @@
 
   1.열매 받기 게임
   
+<br/>
+  
  
   
   <img src="https://user-images.githubusercontent.com/87380790/126426307-7d85bdcb-af89-472c-9d60-971461331d92.png" width="20%">
@@ -33,12 +35,16 @@
 
   2.비행기 슈팅 게임
   
+<br/>
+  
  
 
   <img src="https://user-images.githubusercontent.com/87380790/126426355-933552bf-46ab-47ba-b8fb-44c390ee427c.png" width="20%">
 <img src="https://user-images.githubusercontent.com/87380790/126427596-273f328c-1269-4e35-bf04-77e19a02bb4e.gif" width="60%">
 
   3.모험 게임
+  
+<br/>
   
  
 
