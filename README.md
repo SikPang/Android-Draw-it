@@ -8,12 +8,16 @@
   
   ---
   
+<br/>
+  
 <img src="https://user-images.githubusercontent.com/87380790/126425601-fa6754c6-8b9d-4c76-a143-b58266fa50bf.png" width="30%">
 <img src="https://user-images.githubusercontent.com/87380790/126425595-b024d730-a6f8-498c-bbc7-f73242d07c65.png" width="30%">
   
   오브젝트를 직접 그려서 게임에 적용시켜보세요!
   
   ---
+  
+<br/>
   
   
 <img src="https://user-images.githubusercontent.com/87380790/126425810-6df946d2-b2dc-4eb1-a5cf-c843a10dbcc0.png" width="20%">
@@ -46,6 +50,8 @@
   
  
 ---
+  
+<br/>
   
 <img src="https://user-images.githubusercontent.com/87380790/126427744-2160bc91-b82a-4a18-9260-89fe7c54e4da.png" width="30%">
   
